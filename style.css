@@ -1,0 +1,32 @@
+body{
+   border: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.outside{
+    border-radius: 15px;
+    margin: 100px 50px;
+    background-color: lavender;
+    width: auto;
+    height: 550px;
+}
+.inside{
+    border-radius: 20px;
+    background-color: white;
+    width: 230px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    border-radius: 15%;
+    padding: 15px 15px 5px 15px;
+    height: 200px;
+}
+p , h4{
+    text-align: center;
+    width: 200px;
+    padding: 0 15px;
+}
